@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+        <script src="https://kit.fontawesome.com/0dab609589.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="container navbar">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+            <div class="container header-text">
+                <p class="pag">Hello, I am</p>
+                <h1 class="ngalan"><span>BRYLLE KIRKPATRICK</span> 👋🏻</h1>
+                <p class="pag">A <span>Computer Engineering</span> Student at University of Science and Technology of Southern Philippines.</p>
+            <div class="social-icons">
+                    <a href="https://github.com/BrylleKirkpatrick"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61551120082949"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------about------------- -->
+
+    <div id="about">
+        <div class="container about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey there 👋🏻, I'm Brylle Kirkpatrick D. Entenia, a passionate graduating Computer Engineering student hailing from the city of Gingoog also knwon as City of Good luck in the Philippines. Currently, I'm pursuing my degree at the prestigious University of Science and Technology of Southern Philippines (USTP), where I've been immersing myself in the intricate world of technology. 
+                        Ever since I delved into the realm of computer engineering, I've been fueled by an insatiable curiosity and a drive to make a difference. With each line of code I write, every circuit I design, Every Artistic design and every problem I solve, I'm driven by the belief that technology has the power to transform lives and shape the future. 
+                        As I prepare to embark on the next chapter of my journey, my mission is clear: to leave my mark in the world of tech. Whether it's through innovative projects, groundbreaking research, Eye catching Designs or empowering others to harness the power of technology, I'm committed to making a meaningful impact.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>HTML & CSS. </li>
+                            <li><span>Basic Programming</span><br>C, Java, Python.</li>
+                            <li><span>Graphic Design</span><br>Visual Arts.</li>
+                            <li><span>Game Development (Level Design)</span><br>Unreal Engine 4.5-5.0</li>
+                            <li><span>Photo & Video Editing</span><br> ADOBE Photoshop, ADOBE Premiere Pro, ADOBE After Effects.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Coming Soon...</span><br>Coming Soon...</li>
+                            <li><span>Coming Soon...</span><br>Coming Soon... </li>
+                            <li><span>Coming Soon...</span><br>Coming Soon... </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Science and Technology of Southern Philippines <i>(2020-2024)</i></span><br>Bachelor of science in Computer Engineering.</li>
+                            <li><span>Gingoog City Colleges <i>(2018-2020)</i></span><br>STEM with Honors.</li>
+                            <li><span>Gingoog City Comprehensive National High School <i>(2014-2018)</i></span><br>Special Program of the Arts (Visual Arts).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------Projects--------------- -->
+
+<div id="projects">
+    <div class="container projects">
+        <h1 class="sub-title">Projects</h1>
+        <div id="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>COMING SOON.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>COMING SOON</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>COMING SOON.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------Contact------------------ -->
+
+<div id="contact">
+    <div id="container contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Enteniabryllekirkpatrick@gmail.com</p>
+                <P><i class="fa-solid fa-phone"></i></i>+0987654321</P>
+                <div class="social-icons">
+                    <a href="https://github.com/BrylleKirkpatrick"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61551120082949"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p><i class="fa-solid fa-code"></i>Brylle Kirkpatrick </p>
+</div>
+    <script src="script.js"></script>
+    </body>
+</html>
